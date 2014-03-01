@@ -7,7 +7,6 @@ public class NovoSomador extends Somador{
 
 	public NovoSomador() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public NovoSomador(int a, int b, int c) {
