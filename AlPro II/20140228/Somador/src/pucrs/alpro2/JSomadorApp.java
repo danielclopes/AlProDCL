@@ -13,6 +13,7 @@ import javax.swing.AbstractAction;
 import java.awt.event.ActionEvent;
 import javax.swing.Action;
 import java.awt.event.ActionListener;
+import java.awt.Toolkit;
 
 public class JSomadorApp extends JFrame {
 
@@ -43,6 +44,7 @@ public class JSomadorApp extends JFrame {
 	 * Create the frame.
 	 */
 	public JSomadorApp() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage(JSomadorApp.class.getResource("/javax/swing/plaf/metal/icons/ocean/hardDrive.gif")));
 		setTitle("Somador");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 254, 255);
